@@ -8,6 +8,10 @@
 
 4) Build NN with TF or keras
 
-5) Save serialized nn for reclassification of new samples
+5) Play with hyperparameters
 
-6) Test on unseen data
+6) Save serialized nn for reclassification of new samples
+
+7) Add script with accuracy predictor for testing on unseen data
+
+8) Add database and retraining mechanism
