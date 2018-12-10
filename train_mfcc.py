@@ -74,7 +74,7 @@ model = keras.models.Sequential()
 # Input layer; input dimensions must match number of features in the training set
 # Number of output and input units in two consecutive layers must also match
 
-model.add(keras.layers.Dense(units=100, input_dim=X_train_centered.shape[1],
+model.add(keras.layers.Dense(units=100, input_dim=X_train.shape[1],
                              kernel_initializer='glorot_uniform',
                              bias_initializer='zeros',
                              activation='tanh'))
